@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/view3"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="110dp"
+        android:layout_toEndOf="@+id/delete"
+        android:background="@drawable/buttond"
+        android:text="TYCS"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update"
+        android:layout_marginStart="-160dp"
+        android:layout_marginTop="110dp"
+        android:layout_toEndOf="@+id/delete"
+        android:background="@drawable/buttond"
+        android:text="FYCS"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/view2"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update"
+        android:layout_marginStart="-50dp"
+        android:layout_marginTop="110dp"
+        android:layout_toEndOf="@+id/delete"
+        android:background="@drawable/buttond"
+        android:text="SYCS"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="171dp"
+        android:text="Fees Details..."
+        android:textAllCaps="false"
+        android:textColor="@color/orange"
+        android:textSize="8pt"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="19dp"
+        android:text="Add Student Details..."
+        android:textAllCaps="false"
+        android:textColor="@color/orange"
+        android:textSize="8pt"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="87dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="8pt"
+        android:textAllCaps="true"/>
+
+    <Spinner
+        android:id="@+id/s1"
+        android:layout_width="190dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="135dp"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/insert"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/buttond"
+        android:text="Delete"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView33"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/buttond"
+        android:text="Insert"
+        android:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText6"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="73dp"
+        android:layout_toEndOf="@+id/insert"
+        android:background="@drawable/buttond"
+        android:text="Update"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="141dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="62dp"
+        android:text="Roll No." />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="99dp"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="136dp"
+        android:text="Class" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="213dp"
+        android:text="First Installment:" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="202dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="5000"
+        android:textSize="6pt" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="243dp"
+        android:text="Tuition Fees:"
+        />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="269dp"
+        android:text="Computer Fees" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="298dp"
+        android:text="ID Fees" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="228dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="3000"
+        android:textSize="6pt" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="255dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="1550"
+        android:textSize="6pt" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="284dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="50"
+        android:textSize="6pt" />
+
+    <Button
+        android:id="@+id/viewr"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="466dp"
+        android:layout_toEndOf="@+id/delete"
+        android:background="@drawable/buttond"
+        android:text="View "
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="323dp"
+
+        android:text="Paid Date:" />
+
+    <EditText
+        android:id="@+id/pdate"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="315dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="01/05/2019"
+        android:textSize="6pt"
+
+        />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="351dp"
+        android:text="Due Date:" />
+
+    <EditText
+        android:id="@+id/ddate"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="346dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="05/11/2019"
+        android:textSize="6pt" />
+
+
+</RelativeLayout>
+

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">fees_mngmt</string>
+
+    <string name="student">Student</string>
+    <string name="admin">Admin</string>
+    <string name="parents">Parents</string>
+    <string name="login">Login</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="login1">login</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="open_navigation">Open Navigation</string>
+    <string name="close_navigation">close Navigation</string>
+</resources>

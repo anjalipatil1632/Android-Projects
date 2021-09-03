@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "92603406240",
+    "firebase_url": "https://feesmngmt.firebaseio.com",
+    "project_id": "feesmngmt",
+    "storage_bucket": "feesmngmt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92603406240:android:9995673f22b6b193",
+        "android_client_info": {
+          "package_name": "com.example.bsccsit.fees_mngmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92603406240-llu082679lg3dcgjt3uus26bcosol4fs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bsccsit.fees_mngmt",
+            "certificate_hash": "bc2b85ce9de2bbe256c51982e808ba0150064b29"
+          }
+        },
+        {
+          "client_id": "92603406240-c85oobic19jha6koicu78mtgsf2r1l02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4dg3uSKbIWnhVKH3HJ0ziEjQau00c5tQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92603406240-c85oobic19jha6koicu78mtgsf2r1l02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

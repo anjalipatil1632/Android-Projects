@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bsccsit.fees_mngmt">
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Fees Manager"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.bsccsit.fees_mngmt.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.example.bsccsit.fees_mngmt.NewActivity1" >
+
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.example.bsccsit.fees_mngmt.NewActivity5" >
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.example.bsccsit.fees_mngmt.NewActivity3" >
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.example.bsccsit.fees_mngmt.NewActivity4" >
+
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.example.bsccsit.fees_mngmt.NewActivity6" >
+
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.example.bsccsit.fees_mngmt.NewActivity7" >
+
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name="com.example.bsccsit.fees_mngmt.NewActivity8" >
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>
